@@ -20,7 +20,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:8080'], // add multiple allowed origins if needed
+  origin: ['http://localhost:5173', 'http://localhost:8080','https://jazz1.netlify.app'], // add multiple allowed origins if needed
   credentials: true
 }));
 
